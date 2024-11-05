@@ -1,5 +1,5 @@
 CREATE TABLE Cw1.Trail_details(
-    Trail_id INTEGER UNIQUE NOT NULL,
+    Trail_id INT IDENTITY(1,1) UNIQUE NOT NULL,
     Trail_length DECIMAL(4, 2) NOT NULL,
     Trail_elevation INTEGER NOT NULL,
     Route_type VARCHAR(20) NOT NULL,
